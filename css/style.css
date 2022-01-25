@@ -37,11 +37,12 @@
 }
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 1920px;
     height: 10000px;
     font-family: Montserrat-Regular;
+
 }
 
 .hidden {
