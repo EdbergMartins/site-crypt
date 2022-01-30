@@ -676,7 +676,10 @@ a {
     background-color: #fce28a;
     position: relative;    
     fill: #f38181;
+}
 
+.box7-about-staff-transation-social-icon img{
+    fill: whitesmoke;
 }
 
 .box7-about-staff-transation-social-icon:hover {
