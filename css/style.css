@@ -658,9 +658,6 @@ a {
 
 .box7-about-staff-transation-social {
     position: absolute;
-}
-
-.box7-about-staff-transation-social {
     width: 229px;
     height: 55px;
     position: relative;
@@ -677,31 +674,19 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #fce28a;
-    position: relative;
-}
+    position: relative;    
+    fill: #f38181;
 
-.box7-about-staff-transation-social-icon-transation {
-    width: 56px;
-    height: 55px;
-    position: absolute;
-    opacity: 0;
-    z-index: 10;
-}
-
-.box7-about-staff-transation-social-icon-transation:hover {
-    opacity: 1;
-    position: absolute;
-    left: 40%;
-    top: 30%;
 }
 
 .box7-about-staff-transation-social-icon:hover {
     background-color: #f38181;
-    color: white;
+    fill: white;
+
 }
 
-.box7-about-staff-transation-social-icon img {
-    height: 27px;
+.box7-about-staff-transation-social-icon svg {
+    height: 40px;
 }
 
 .box7-about-staff-transation:hover {

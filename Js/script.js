@@ -1,7 +1,7 @@
 function showAndHiddenContent(element, arrow) {
-  var local = document.getElementById(element);
+  var local = window.getComputedStyle(element);
   var imgArrow = document.getElementById(arrow);
-  if (local.style.display == 'none' || local.style.display == '') {
+  if (local.style.display == 'none') {
     local.style.display = 'flex';
     imgArrow.src = "img/box5/arrowUp.png";
 
